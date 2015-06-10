@@ -5,9 +5,11 @@ Some questions you might ask have been answered below.
 
 ## How to use?
 Type the following in sequence in a terminal to install:
-`git clone https://github.com/sunitknandi/quassel-core-static.git`
-`cd quassel-core-static`
-`makepkg -si`
+```
+git clone https://github.com/sunitknandi/quassel-core-static.git
+cd quassel-core-static
+makepkg -si
+```
 
 Expecting more steps? Sorry to disappoint, mate. xD
 
