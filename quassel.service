@@ -1,0 +1,13 @@
+[Unit]
+Description=Quassel core service
+After=network.target
+
+[Service]
+Type=simple
+EnvironmentFile=/etc/conf.d/quassel
+User=quassel
+Group=quassel
+ExecStart=/usr/bin/quasselcore-static --configdir=/var/lib/quassel --listen=${LISTEN} --port ${PORT}
+
+[Install]
+WantedBy=multi-user.target
