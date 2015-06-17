@@ -38,6 +38,7 @@ The officially maintained `quassel-core` package on Archlinux repositories [reqi
 + qt5-base (make)
 + qt5-script (make)
 + qt5-tools (make)
+
 More than half of them are _make dependencies_ which means after the packages are compiled they are no longer needed, which means nothing but bloat.
 
 But that's not the motivation for this git repo. The real motivation is actually this:
@@ -75,4 +76,3 @@ Yes, feel free to fork it, edit it and send me a pull request. It can greatly he
 
 ## I have something else to ask.
 Feel free to shoot me a mail at sunitnandi834 (at) gmail (dot) com and I'll get back to you. :)
-
